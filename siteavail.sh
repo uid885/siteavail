@@ -1,10 +1,9 @@
 #!/bin/bash -
-##########################################################
 # Author:      Christo Deale                  
 # Date  :      2023-07-05                
 # siteavail :  Utility to ping from a list and if nodes
 #              are down notify via email using sendmail
-##########################################################
+
 # Check if Sendmail is installed
 if ! command -v sendmail &> /dev/null; then
     echo "Sendmail is not installed. Installing Sendmail, m4, and s-nail..."
